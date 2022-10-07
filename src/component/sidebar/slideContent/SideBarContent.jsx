@@ -3,7 +3,7 @@ import "./sideBarContent.css";
 
 const SideBarContent = ({ list }) => {
   return (
-    <div className="content_container">
+    <div className="content_container" onClick={list.click}>
       <div>{list.icon}</div>
       <h5>{list.title}</h5>
     </div>

@@ -3,7 +3,6 @@ import "./manageAcc.css";
 import { BiSearch } from "react-icons/bi";
 import { HiDownload } from "react-icons/hi";
 import Accounts from "./Account/Accounts";
-import { Link } from "react-router-dom";
 
 const ManageAcc = () => {
   const handleBtn = (e) => {
@@ -17,11 +16,9 @@ const ManageAcc = () => {
           <BiSearch className="acc_search" />
           <input placeholder="search here..." className="acc_input" />
         </div>
-        <Link to={"/report"} style={{ textDecoration: "none" }}>
-          <button className="downloadBtn" onClick={handleBtn}>
-            <HiDownload /> Download Report
-          </button>
-        </Link>
+        <button className="downloadBtn" onClick={handleBtn}>
+          <HiDownload /> Download Report
+        </button>
       </div>
       <Accounts />
     </div>

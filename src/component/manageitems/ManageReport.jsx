@@ -62,9 +62,9 @@ const ManageReport = () => {
   return (
     <div className="r_container">
       <div className="report_container">
-        {data.map((detail) => {
+        {data.map((detail, index) => {
           return (
-            <div className="report_row">
+            <div key={index} className="report_row">
               {/* <div className="report_rowItem"> */}
               <div className="report_column ">
                 <h6>Loan ID</h6>

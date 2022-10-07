@@ -30,9 +30,9 @@ const HeaderCard = () => {
   return (
     <div className="column">
       <div className="card_container">
-        {card.map((data) => {
+        {card.map((data, i) => {
           return (
-            <div className="card_items">
+            <div key={i} className="card_items">
               <div className="card_no">{data.no}</div>
               <p>{data.content}</p>
               <div className="card_arrow">

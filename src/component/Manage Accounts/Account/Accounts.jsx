@@ -7,9 +7,9 @@ const Accounts = () => {
   return (
     <div className="account_page">
       <div className="account_container">
-        <div class="account_row">
+        <div className="account_row">
           <div className="account_drop">
-            <div class="account_column">
+            <div className="account_column">
               <span>Account Type</span>
               <button className="account_btn">
                 Student <AiFillCaretDown />
@@ -21,7 +21,7 @@ const Accounts = () => {
           </div>
 
           <div className="account_drop">
-            <div class="account_column">
+            <div className="account_column">
               <span>Loan Status</span>
               <button className="account_btn">
                 Approved <AiFillCaretDown />
@@ -33,7 +33,7 @@ const Accounts = () => {
           </div>
 
           <div className="account_drop">
-            <div class="account_column">
+            <div className="account_column">
               <span>Start Date</span>
               <button className="account_btn">
                 Approved <AiFillCaretDown />
@@ -45,7 +45,7 @@ const Accounts = () => {
           </div>
 
           <div className="account_drop">
-            <div class="account_column">
+            <div className="account_column">
               <span>End Date</span>
               <button className="account_btn">
                 Approved <AiFillCaretDown />
@@ -56,7 +56,7 @@ const Accounts = () => {
             </div>
           </div>
 
-          <div class="account_columnLast">
+          <div className="account_columnLast">
             <button className="account_btnLast">Generate</button>
           </div>
         </div>

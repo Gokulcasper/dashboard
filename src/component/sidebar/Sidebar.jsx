@@ -7,16 +7,18 @@ import { TbReport } from "react-icons/tb";
 import { RiStackLine } from "react-icons/ri";
 import { AiOutlineLeft } from "react-icons/ai";
 import SideBarContent from "./slideContent/SideBarContent";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   let sideBarList = [
     {
       icon: <MdOutlineDashboard />,
-
       title: "Dashboard",
+      click: () => {
+        navigate("/");
+      },
     },
     {
       icon: <TbReport />,
@@ -37,14 +39,16 @@ const Sidebar = () => {
     {
       icon: <MdAssignment />,
       title: "Report Generation",
-      // click:()=>{navigate("/report")}
+      click: () => {
+        navigate("/report");
+      },
     },
   ];
 
   return (
     <div className="sidebar_container">
       {sideBarList.map((list) => {
-        return <SideBarContent list={list} />;
+        return <SideBarContent key={list.title} list={list} />;
       })}
 
       <div className="side_hidden">
