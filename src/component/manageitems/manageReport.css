@@ -1,0 +1,46 @@
+.r_container {
+  padding: 12px 14px 0 20px;
+  background-color: rgb(249, 248, 248);
+  box-shadow: 6px 6px 75px -35px rgb(0 0 0 / 51%);
+  margin-top: 30px;
+  height: 67%;
+}
+
+.report_container {
+  width: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 92%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0px 10px;
+}
+
+.report_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  justify-content: space-around;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+.report_column {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 5px;
+}
+
+h6 {
+  color: rgb(161, 161, 161);
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.r_data {
+  font-size: 17px;
+  color: black;
+}

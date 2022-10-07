@@ -1,0 +1,31 @@
+.color_heading {
+  display: flex;
+  gap: 10px;
+  padding: 28px 50px;
+}
+
+span {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+.dash_color {
+  display: flex;
+  gap: 15px;
+  padding: 0px 11px;
+  align-items: center;
+}
+
+.dash_circle {
+  border-radius: 50px;
+  margin-top: 3px;
+  margin-right: 7px;
+  padding: 1px;
+}
+
+.color_data {
+  color: darkgrey;
+  font-size: 18px;
+}

@@ -1,0 +1,48 @@
+.color_container {
+  background-color: rgb(233, 233, 233);
+  padding: 20px 19px 20px 16px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  width: 90%;
+  height: 50%;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+
+.color_box {
+  display: flex;
+  border: 2px solid blue;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 20%;
+  border-radius: 10px;
+  padding: 18px 10px;
+  justify-content: center;
+
+  background-color: white;
+}
+
+.color_g {
+  background-color: #acbbd1;
+  padding: 10px;
+  width: 35%;
+  height: 17%;
+  border-radius: 10px;
+}
+
+.color_b {
+  background-color: #284fb2;
+  padding: 10px;
+  width: 35%;
+  height: 17%;
+  border-radius: 10px;
+}
+
+.color_r {
+  background-color: #d00101;
+  padding: 10px;
+  width: 35%;
+  height: 17%;
+  border-radius: 10px;
+}

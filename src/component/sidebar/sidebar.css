@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: serif;
+}
+
+.sidebar_container {
+  height: 100vh;
+  padding: 15px 0px 15px 15px;
+  background-color: rgb(57, 129, 245);
+  width: 25%;
+  position: relative;
+  width: 19%;
+}
+
+.side_hidden {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  justify-content: right;
+  /* border-top-left-radius: 10px; */
+  /* border-bottom-left-radius: 10px; */
+  width: 30px;
+  right: 0;
+  align-items: center;
+  top: 50%;
+  height: 40px;
+  clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}

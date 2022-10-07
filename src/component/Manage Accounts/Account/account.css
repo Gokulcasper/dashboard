@@ -1,0 +1,93 @@
+.account_page {
+  display: flex;
+  flex-direction: column;
+  height: 87%;
+}
+
+.account_container {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 00px 0px;
+}
+
+span {
+  font-size: 20px;
+}
+
+.account_row {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.account_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.account_btn {
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  border: 2px solid rgb(27, 86, 237);
+  color: rgb(27, 86, 237);
+  font-size: 18px;
+}
+
+.account_btn:hover {
+  background-color: rgb(27, 86, 237);
+  color: white;
+  cursor: pointer;
+}
+
+.account_btnLast {
+  margin-top: 50px;
+  padding: 15px 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  border: 2px solid rgb(27, 86, 237);
+  color: rgb(27, 86, 237);
+  font-size: 18px;
+}
+
+.account_btnLast:hover {
+  background-color: rgb(27, 86, 237);
+  color: white;
+  cursor: pointer;
+}
+
+.account_drop {
+  position: relative;
+}
+
+.account_drop:hover .acc_dropList {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+
+.acc_dropList {
+  color: rgb(27, 86, 237);
+  background-color: white;
+  font-size: 20px;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+.acc_dropItems {
+  padding: 12px 53px;
+  border-radius: 3px;
+  border: 1px solid rgb(27, 86, 237);
+}
