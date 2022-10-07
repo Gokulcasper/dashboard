@@ -5,7 +5,7 @@ import { BsCircle } from "react-icons/bs";
 const DashColor = () => {
   return (
     <div className="color_heading">
-      <span>Kiosk Compartment Occupancy</span>
+      <span className="color_name">Kiosk Compartment Occupancy</span>
       <div className="dash_color">
         <div className="color_data">
           <BsCircle

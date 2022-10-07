@@ -91,3 +91,13 @@ span {
   border-radius: 3px;
   border: 1px solid rgb(27, 86, 237);
 }
+
+@media only screen and (max-width: 430px) {
+  .account_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .account_drop:hover .acc_dropList {
+    visibility: hidden;
+  }
+}

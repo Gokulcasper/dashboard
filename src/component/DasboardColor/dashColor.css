@@ -4,7 +4,7 @@
   padding: 28px 50px;
 }
 
-span {
+.color_name {
   text-decoration: none;
   padding: 10px;
   color: black;
@@ -28,4 +28,28 @@ span {
 .color_data {
   color: darkgrey;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 425px) {
+  .color_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    gap: 3px;
+  }
+  .color_name {
+    font-size: 18px;
+    padding: 5px 0px;
+  }
+  .dash_color {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .color_data {
+    font-size: 12px;
+  }
 }

@@ -44,3 +44,36 @@ h6 {
   font-size: 17px;
   color: black;
 }
+
+@media only screen and (max-width: 430px) {
+  .report_row {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+  }
+
+  .report_column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .report_container {
+    height: 100%;
+  }
+  .r_container {
+    height: 20%;
+  } */
+
+  .report_container {
+    overflow: visible;
+    overflow-y: hidden;
+    height: auto;
+    padding: 0px;
+  }
+  .r_container {
+    height: auto;
+    padding: 1px;
+  }
+}

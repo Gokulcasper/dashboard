@@ -50,3 +50,24 @@
   color: white;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 430px) {
+  .acc_searchTab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .downloadBtn {
+    padding: 5px;
+    width: 60%;
+  }
+  .acc_container {
+    padding: 10px;
+  }
+  .acc_searchInput {
+    padding: 5px;
+    width: 70%;
+  }
+}

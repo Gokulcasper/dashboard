@@ -30,3 +30,16 @@ body {
   height: 40px;
   clip-path: polygon(100% 0, 100% 100%, 0 50%);
 }
+
+@media only screen and (max-width: 425px) {
+  .sidebar_container {
+    width: 12%;
+    overflow: hidden;
+    height: auto;
+  }
+  .side_hidden {
+    clip-path: none;
+    background-color: rgb(57, 129, 245);
+    display: none;
+  }
+}

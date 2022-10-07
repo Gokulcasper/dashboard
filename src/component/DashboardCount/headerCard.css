@@ -53,3 +53,41 @@ p {
   padding: 10px;
   color: rgb(59, 101, 252);
 }
+
+@media only screen and (max-width: 425px) {
+  .card_container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    gap: 10px;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+  .card_items {
+    width: 40%;
+    padding: 0px;
+  }
+  .card_no {
+    font-size: 25px;
+  }
+  p {
+    padding: 3px;
+    font-size: 10px;
+  }
+  .card_arrow {
+    padding: 3px;
+    gap: 4px;
+    font-size: 18px;
+  }
+  .card_info {
+    font-size: 17px;
+    padding: 5px;
+  }
+}

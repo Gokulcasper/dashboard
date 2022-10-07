@@ -46,3 +46,37 @@
   height: 17%;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 425px) {
+  .color_container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    gap: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin-left: 13px;
+  }
+
+  .color_box {
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+  .color_g {
+    width: 24px;
+    height: 24px;
+  }
+
+  .color_b {
+    width: 24px;
+    height: 24px;
+  }
+
+  .color_r {
+    width: 24px;
+    height: 24px;
+  }
+}
